@@ -1,0 +1,11 @@
+﻿  CreateMainTXT.cpp
+  CreateMainTXT2.cpp
+  CreateNew.cpp
+  Lab1_1.cpp
+C:\KPI Repository\ОП\C\Другий семестр\Lab1.1\Lab1.1\ReadTXT.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  ReadTXT.cpp
+C:\KPI Repository\ОП\C\Другий семестр\Lab1.1\Lab1.1\ReadTXT.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  SearchIdent.cpp
+C:\KPI Repository\ОП\C\Другий семестр\Lab1.1\Lab1.1\SearchIdent.cpp(52,24): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Lab1.1.vcxproj -> C:\KPI Repository\ОП\C\Другий семестр\Lab1.1\Debug\Lab1.1.exe

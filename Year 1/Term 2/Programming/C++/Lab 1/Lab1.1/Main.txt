@@ -1,0 +1,9 @@
+int main()
+{
+int a            =0;
+float brom=64.5;
+bool foo=true;
+if(foo==false){foo=true;}
+brom=50.0;
+return 0;
+}≥‡≥‚‡
