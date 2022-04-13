@@ -24,3 +24,4 @@ def merge_sort(arr):
     left = merge_sort(arr[:middle])
     right = merge_sort(arr[middle:])
     return merge(left, right)
+
