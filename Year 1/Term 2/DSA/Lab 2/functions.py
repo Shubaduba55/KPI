@@ -1,4 +1,5 @@
 from column import Column
+from merge_sort_2D import merge_sort
 
 
 def inversion_check(arr1):
@@ -38,7 +39,14 @@ def columns_to_rows(arr, n_columns, n_rows):
 
 
 def print_inversions(name, arr, n_users):
+    dictionary = [[], []]
     with open(name, "wt") as file_write:
         for i in range(n_users):
             inversions = inversion_check(arr[i][1:])
-            file_write.write("(" + str(arr[i][0]) + "; " + str(inversions) + ")\n")
+            dictionary[0].append(arr[i][0])
+            dictionary[1].append(inversions)
+        new = create_array_of_columns(dictionary, n_users - 1, 2, 1)
+        new = merge_sort(new)
+        for i in new:
+            file_write.write("(" + str(i.column[0]) + "; " + str(i.column[1]) + ")\n")
+
