@@ -31,35 +31,4 @@ def merge_sort(arr):
     right = merge_sort(arr[middle:])
     return merge(left, right)
 
-"""def merge(arr, id_left, id_right):
-    arr_left = []
-    arr_right = []
-    for i in id_left:
-        arr_left.append(arr[i])
-    for j in id_right:
-        arr_right.append(arr[j])
 
-    # arr_left.append(10**10)
-    # arr_right.append(10**10)
-    i = j = 0
-    id_plus = id_left + id_right
-    for k in id_plus:
-        if arr_left[i] <= arr_right[j]:
-            arr[k] = arr_left[i]
-            i += 1
-        else:
-            arr[k] = arr_right[j]
-            j += 1
-
-    return id_plus
-
-
-# en = len(arr) - 1
-def merge_sort(arr, start, end):
-    if start == end:
-        return [end]
-    middle = (start + end) // 2
-    left = merge_sort(arr, start, middle)
-    right = merge_sort(arr, middle + 1, end)
-    return merge(arr, left, right)
-"""

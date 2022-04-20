@@ -28,9 +28,7 @@ def columns_to_rows(arr, n_columns, n_rows):
     arr_new = []
     for i in range(n_rows):
         arr_temp = [i + 1]
-        # arr_temp.append(i + 1)
         for j in range(n_columns):
-            # arr_temp.append(j + 1)
             temp = arr[j].column
             arr_temp.append(temp[i])
         arr_new.append(arr_temp)

@@ -5,9 +5,9 @@ from column import Column
 
 
 def main():
-    # name_input = "ip11_shamkov_02_input.txt"
-    name_input = "try.txt"
-    name_output = "ip11_shamkov_02_output.txt"
+    name_input = "ip11_shamkov_02_input.py"
+    # name_input = "try2.txt"
+    name_output = "ip11_shamkov_02_output.py"
 
     # ситаємо двовимірний масив користувачів та їхньої оцінки фільмів
     arr_main, users, films = create_array(name_input)
