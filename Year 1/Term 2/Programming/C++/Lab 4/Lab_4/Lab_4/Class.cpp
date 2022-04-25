@@ -39,7 +39,7 @@ int Numeral_2::get_decimal() {
 	return number; 
 }
 
-Numeral_2& Numeral_2::operator = (const Numeral_2& other) {
+Numeral_2 Numeral_2::operator = (const Numeral_2& other) {
 	if (this != nullptr) {
 		delete[] m_binary;
 	}
@@ -51,9 +51,7 @@ Numeral_2& Numeral_2::operator = (const Numeral_2& other) {
 	}
 	return *this;
 }
-//111
-//101
-//1100
+
 Numeral_2 Numeral_2::operator + (const Numeral_2& other) {
 	int* binary = new int[m_bits];
 	int increase = 0, temp_add;
@@ -83,5 +81,27 @@ Numeral_2 Numeral_2::operator + (const Numeral_2& other) {
 	temp.m_bits = m_bits;
 	temp.m_binary = binary;
 	binary = nullptr;
+	return temp;
+}
+
+Numeral_2& Numeral_2::operator += (const int number) {
+	Numeral_2 temp(number, 10);
+	*this = *this + temp;
+	return *this;
+}
+
+Numeral_2& Numeral_2::operator += (const Numeral_2& other) {
+	*this = *this + other;
+	return *this;
+}
+
+Numeral_2 Numeral_2::operator ++ () {
+	*this += 1;
+	return *this;
+}
+
+Numeral_2 Numeral_2::operator ++ (int num) {
+	Numeral_2 temp = *this;
+	*this += 1;
 	return temp;
 }
