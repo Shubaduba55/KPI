@@ -61,7 +61,15 @@ public:
 	void print();
 	int get_decimal();
 
-	Numeral_2& operator = (const Numeral_2&);
+	Numeral_2 operator = (const Numeral_2&);
 
 	Numeral_2 operator + (const Numeral_2&);
+
+	Numeral_2& operator += (const int);
+
+	Numeral_2& operator += (const Numeral_2&);
+
+	Numeral_2 operator ++ ();
+
+	Numeral_2 operator ++ (int);
 };
