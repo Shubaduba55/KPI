@@ -1,5 +1,8 @@
 ﻿  countwinter.cpp
   createtxt.cpp
+  lastcentury.cpp
+  Main.cpp
   readtxt.cpp
   Generating Code...
-  Project1.vcxproj -> C:\KPI Repository\ОП\C\Другий семестр\Лабортаорна 2 (структури)\Project1\Debug\Lab 2.exe
+  LINK : C:\KPI\Year 1\Term 2\Programming\C++\Lab 2\Project1\Debug\Lab 2.exe not found or not built by the last incremental link; performing full link
+  Project1.vcxproj -> C:\KPI\Year 1\Term 2\Programming\C++\Lab 2\Project1\Debug\Lab 2.exe
