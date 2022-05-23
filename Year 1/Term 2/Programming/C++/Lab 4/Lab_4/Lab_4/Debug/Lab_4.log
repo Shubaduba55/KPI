@@ -1,2 +1,5 @@
-﻿  Main.cpp
+﻿  Class.cpp
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 4\Lab_4\Lab_4\Class.cpp(96,49): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Main.cpp
+  Generating Code...
   Lab_4.vcxproj -> C:\KPI\Year 1\Term 2\Programming\C++\Lab 4\Lab_4\Debug\Lab_4.exe
