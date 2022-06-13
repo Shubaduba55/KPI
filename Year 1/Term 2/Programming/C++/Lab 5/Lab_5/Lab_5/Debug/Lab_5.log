@@ -1,2 +1,13 @@
-﻿  Main.cpp
+﻿  Figure.cpp
+  Functions.cpp
+  Hexagon.cpp
+  Main.cpp
+  Pentagon.cpp
+  Point.cpp
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 5\Lab_5\Lab_5\Point.cpp(12,35): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 5\Lab_5\Lab_5\Point.cpp(13,35): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 5\Lab_5\Lab_5\Point.cpp(36,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 5\Lab_5\Lab_5\Point.cpp(37,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  LINK : C:\KPI\Year 1\Term 2\Programming\C++\Lab 5\Lab_5\Debug\Lab_5.exe not found or not built by the last incremental link; performing full link
   Lab_5.vcxproj -> C:\KPI\Year 1\Term 2\Programming\C++\Lab 5\Lab_5\Debug\Lab_5.exe

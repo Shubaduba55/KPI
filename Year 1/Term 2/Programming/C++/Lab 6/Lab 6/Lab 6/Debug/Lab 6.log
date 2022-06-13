@@ -1,0 +1,6 @@
+﻿  Main.cpp
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 6\Lab 6\Lab 6\Main.cpp(12,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 6\Lab 6\Lab 6\Main.cpp(12,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 6\Lab 6\Lab 6\Main.cpp(12,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\KPI\Year 1\Term 2\Programming\C++\Lab 6\Lab 6\Lab 6\Main.cpp(12,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Lab 6.vcxproj -> C:\KPI\Year 1\Term 2\Programming\C++\Lab 6\Lab 6\Debug\Lab 6.exe
